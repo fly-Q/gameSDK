@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1047AF1E1F281A00BEF639 /* DYDSDKFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047611E1F281A00BEF639 /* DYDSDKFriendsCell.m */; };
+		5C1047B01E1F281A00BEF639 /* DYDSDKLookFriendsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047631E1F281A00BEF639 /* DYDSDKLookFriendsView.m */; };
+		5C1047B11E1F281A00BEF639 /* DYDSDKSuspensionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047651E1F281A00BEF639 /* DYDSDKSuspensionButton.m */; };
+		5C1047B21E1F281A00BEF639 /* DYDKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047681E1F281A00BEF639 /* DYDKeychainUtils.m */; };
+		5C1047B31E1F281A00BEF639 /* DYDMachineKeyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10476A1E1F281A00BEF639 /* DYDMachineKeyStore.m */; };
+		5C1047B41E1F281A00BEF639 /* DYDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10476D1E1F281A00BEF639 /* DYDDataManager.m */; };
+		5C1047B51E1F281A00BEF639 /* DYDDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10476F1E1F281A00BEF639 /* DYDDBManager.m */; };
+		5C1047B61E1F281A00BEF639 /* DYDSDKCommonUICreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047711E1F281A00BEF639 /* DYDSDKCommonUICreater.m */; };
+		5C1047B71E1F281A00BEF639 /* DYDSDKDataRequstTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047731E1F281A00BEF639 /* DYDSDKDataRequstTool.m */; };
+		5C1047B81E1F281A00BEF639 /* DYDSDKLoginBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047751E1F281A00BEF639 /* DYDSDKLoginBaseView.m */; };
+		5C1047B91E1F281A00BEF639 /* DYDSDKNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047771E1F281A00BEF639 /* DYDSDKNetworkTool.m */; };
+		5C1047BA1E1F281A00BEF639 /* DYDLoginHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10477A1E1F281A00BEF639 /* DYDLoginHeader.m */; };
+		5C1047BB1E1F281A00BEF639 /* DYDSDKBindVisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10477D1E1F281A00BEF639 /* DYDSDKBindVisitorView.m */; };
+		5C1047BC1E1F281A00BEF639 /* DYDSDKFunctionMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10477F1E1F281A00BEF639 /* DYDSDKFunctionMenuView.m */; };
+		5C1047BD1E1F281A00BEF639 /* DYDSDKHintVisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047811E1F281A00BEF639 /* DYDSDKHintVisitorView.m */; };
+		5C1047BE1E1F281A00BEF639 /* DYDSDKLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047831E1F281A00BEF639 /* DYDSDKLoginView.m */; };
+		5C1047BF1E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047851E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.m */; };
+		5C1047C01E1F281A00BEF639 /* DYDSDKRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047871E1F281A00BEF639 /* DYDSDKRegisterView.m */; };
+		5C1047C11E1F281A00BEF639 /* DYDSDKSettingPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047891E1F281A00BEF639 /* DYDSDKSettingPasswordView.m */; };
+		5C1047C21E1F281A00BEF639 /* DYDSDKSuspensionMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10478B1E1F281A00BEF639 /* DYDSDKSuspensionMenuView.m */; };
+		5C1047C31E1F281A00BEF639 /* DYDSDKWelcomeBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10478D1E1F281A00BEF639 /* DYDSDKWelcomeBackView.m */; };
+		5C1047C41E1F281A00BEF639 /* DYDSDKBackBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047901E1F281A00BEF639 /* DYDSDKBackBaseView.m */; };
+		5C1047C51E1F281A00BEF639 /* DYDSDKBurstButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047921E1F281A00BEF639 /* DYDSDKBurstButtonsView.m */; };
+		5C1047C61E1F281A00BEF639 /* DYDSDKGeneralAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047941E1F281A00BEF639 /* DYDSDKGeneralAlertView.m */; };
+		5C1047C71E1F281A00BEF639 /* DYDSDKGetCodeBut.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047961E1F281A00BEF639 /* DYDSDKGetCodeBut.m */; };
+		5C1047C81E1F281A00BEF639 /* DYDSDKHexagonImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047981E1F281A00BEF639 /* DYDSDKHexagonImageView.m */; };
+		5C1047C91E1F281A00BEF639 /* DYDSDKMessagePopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10479A1E1F281A00BEF639 /* DYDSDKMessagePopupView.m */; };
+		5C1047CA1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10479C1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.m */; };
+		5C1047CB1E1F281A00BEF639 /* DYDSDKRightImageBut.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10479E1E1F281A00BEF639 /* DYDSDKRightImageBut.m */; };
+		5C1047CC1E1F281A00BEF639 /* DYDSDKUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047A11E1F281A00BEF639 /* DYDSDKUserEntity.m */; };
+		5C1047CD1E1F281A00BEF639 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047A41E1F281A00BEF639 /* FMDatabase.m */; };
+		5C1047CE1E1F281A00BEF639 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047A61E1F281A00BEF639 /* FMDatabaseAdditions.m */; };
+		5C1047CF1E1F281A00BEF639 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047A81E1F281A00BEF639 /* FMDatabasePool.m */; };
+		5C1047D01E1F281A00BEF639 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047AA1E1F281A00BEF639 /* FMDatabaseQueue.m */; };
+		5C1047D11E1F281A00BEF639 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1047AD1E1F281A00BEF639 /* FMResultSet.m */; };
+		5C1047D21E1F281A00BEF639 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C1047AE1E1F281A00BEF639 /* Info.plist */; };
+		5CBB97771E308EF100FB255E /* DYDOpenApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB97761E308EF100FB255E /* DYDOpenApi.bundle */; };
+		5CBC58131E151951008EC867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC58121E151951008EC867 /* main.m */; };
+		5CBC582C1E151951008EC867 /* iOSGameSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC582B1E151951008EC867 /* iOSGameSDKTests.m */; };
+		5CBC58371E151951008EC867 /* iOSGameSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC58361E151951008EC867 /* iOSGameSDKUITests.m */; };
+		5CBC589B1E1519C6008EC867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC58461E1519C5008EC867 /* AppDelegate.m */; };
+		5CBC589C1E1519C6008EC867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBC58471E1519C5008EC867 /* Assets.xcassets */; };
+		5CBC58CD1E1519C6008EC867 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CBC58971E1519C6008EC867 /* Info.plist */; };
+		5CBC58CE1E1519C6008EC867 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC58991E1519C6008EC867 /* ViewController.m */; };
+		5CEA8D6B1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.numbers in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8D661E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.numbers */; };
+		5CEA8D6C1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8D671E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.xlsx */; };
+		5CEA8D6D1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8D681E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.html */; };
+		5CEA8D6E1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.md in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8D691E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.md */; };
+		5CEA8D6F1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8D6A1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.pdf */; };
+		5CF79FCA1E151A6600AD061B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF79FC91E151A6600AD061B /* libsqlite3.0.tbd */; };
+		5CF79FCF1E151B1900AD061B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF79FCB1E151B1900AD061B /* LaunchScreen.storyboard */; };
+		5CF79FD01E151B1900AD061B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF79FCD1E151B1900AD061B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CBC58281E151951008EC867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CBC58061E151951008EC867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBC580D1E151951008EC867;
+			remoteInfo = iOSGameSDK;
+		};
+		5CBC58331E151951008EC867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CBC58061E151951008EC867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBC580D1E151951008EC867;
+			remoteInfo = iOSGameSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1047601E1F281A00BEF639 /* DYDSDKFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKFriendsCell.h; sourceTree = "<group>"; };
+		5C1047611E1F281A00BEF639 /* DYDSDKFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKFriendsCell.m; sourceTree = "<group>"; };
+		5C1047621E1F281A00BEF639 /* DYDSDKLookFriendsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKLookFriendsView.h; sourceTree = "<group>"; };
+		5C1047631E1F281A00BEF639 /* DYDSDKLookFriendsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKLookFriendsView.m; sourceTree = "<group>"; };
+		5C1047641E1F281A00BEF639 /* DYDSDKSuspensionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKSuspensionButton.h; sourceTree = "<group>"; };
+		5C1047651E1F281A00BEF639 /* DYDSDKSuspensionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKSuspensionButton.m; sourceTree = "<group>"; };
+		5C1047671E1F281A00BEF639 /* DYDKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDKeychainUtils.h; sourceTree = "<group>"; };
+		5C1047681E1F281A00BEF639 /* DYDKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDKeychainUtils.m; sourceTree = "<group>"; };
+		5C1047691E1F281A00BEF639 /* DYDMachineKeyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDMachineKeyStore.h; sourceTree = "<group>"; };
+		5C10476A1E1F281A00BEF639 /* DYDMachineKeyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDMachineKeyStore.m; sourceTree = "<group>"; };
+		5C10476C1E1F281A00BEF639 /* DYDDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDDataManager.h; sourceTree = "<group>"; };
+		5C10476D1E1F281A00BEF639 /* DYDDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDDataManager.m; sourceTree = "<group>"; };
+		5C10476E1E1F281A00BEF639 /* DYDDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDDBManager.h; sourceTree = "<group>"; };
+		5C10476F1E1F281A00BEF639 /* DYDDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDDBManager.m; sourceTree = "<group>"; };
+		5C1047701E1F281A00BEF639 /* DYDSDKCommonUICreater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKCommonUICreater.h; sourceTree = "<group>"; };
+		5C1047711E1F281A00BEF639 /* DYDSDKCommonUICreater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKCommonUICreater.m; sourceTree = "<group>"; };
+		5C1047721E1F281A00BEF639 /* DYDSDKDataRequstTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKDataRequstTool.h; sourceTree = "<group>"; };
+		5C1047731E1F281A00BEF639 /* DYDSDKDataRequstTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKDataRequstTool.m; sourceTree = "<group>"; };
+		5C1047741E1F281A00BEF639 /* DYDSDKLoginBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKLoginBaseView.h; sourceTree = "<group>"; };
+		5C1047751E1F281A00BEF639 /* DYDSDKLoginBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKLoginBaseView.m; sourceTree = "<group>"; };
+		5C1047761E1F281A00BEF639 /* DYDSDKNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKNetworkTool.h; sourceTree = "<group>"; };
+		5C1047771E1F281A00BEF639 /* DYDSDKNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKNetworkTool.m; sourceTree = "<group>"; };
+		5C1047781E1F281A00BEF639 /* DYDSettingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSettingHeader.h; sourceTree = "<group>"; };
+		5C1047791E1F281A00BEF639 /* DYDLoginHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDLoginHeader.h; sourceTree = "<group>"; };
+		5C10477A1E1F281A00BEF639 /* DYDLoginHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDLoginHeader.m; sourceTree = "<group>"; };
+		5C10477C1E1F281A00BEF639 /* DYDSDKBindVisitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKBindVisitorView.h; sourceTree = "<group>"; };
+		5C10477D1E1F281A00BEF639 /* DYDSDKBindVisitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKBindVisitorView.m; sourceTree = "<group>"; };
+		5C10477E1E1F281A00BEF639 /* DYDSDKFunctionMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKFunctionMenuView.h; sourceTree = "<group>"; };
+		5C10477F1E1F281A00BEF639 /* DYDSDKFunctionMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKFunctionMenuView.m; sourceTree = "<group>"; };
+		5C1047801E1F281A00BEF639 /* DYDSDKHintVisitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKHintVisitorView.h; sourceTree = "<group>"; };
+		5C1047811E1F281A00BEF639 /* DYDSDKHintVisitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKHintVisitorView.m; sourceTree = "<group>"; };
+		5C1047821E1F281A00BEF639 /* DYDSDKLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKLoginView.h; sourceTree = "<group>"; };
+		5C1047831E1F281A00BEF639 /* DYDSDKLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKLoginView.m; sourceTree = "<group>"; };
+		5C1047841E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKRegisterSendCodeView.h; sourceTree = "<group>"; };
+		5C1047851E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKRegisterSendCodeView.m; sourceTree = "<group>"; };
+		5C1047861E1F281A00BEF639 /* DYDSDKRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKRegisterView.h; sourceTree = "<group>"; };
+		5C1047871E1F281A00BEF639 /* DYDSDKRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKRegisterView.m; sourceTree = "<group>"; };
+		5C1047881E1F281A00BEF639 /* DYDSDKSettingPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKSettingPasswordView.h; sourceTree = "<group>"; };
+		5C1047891E1F281A00BEF639 /* DYDSDKSettingPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKSettingPasswordView.m; sourceTree = "<group>"; };
+		5C10478A1E1F281A00BEF639 /* DYDSDKSuspensionMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKSuspensionMenuView.h; sourceTree = "<group>"; };
+		5C10478B1E1F281A00BEF639 /* DYDSDKSuspensionMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKSuspensionMenuView.m; sourceTree = "<group>"; };
+		5C10478C1E1F281A00BEF639 /* DYDSDKWelcomeBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKWelcomeBackView.h; sourceTree = "<group>"; };
+		5C10478D1E1F281A00BEF639 /* DYDSDKWelcomeBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKWelcomeBackView.m; sourceTree = "<group>"; };
+		5C10478F1E1F281A00BEF639 /* DYDSDKBackBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKBackBaseView.h; sourceTree = "<group>"; };
+		5C1047901E1F281A00BEF639 /* DYDSDKBackBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKBackBaseView.m; sourceTree = "<group>"; };
+		5C1047911E1F281A00BEF639 /* DYDSDKBurstButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKBurstButtonsView.h; sourceTree = "<group>"; };
+		5C1047921E1F281A00BEF639 /* DYDSDKBurstButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKBurstButtonsView.m; sourceTree = "<group>"; };
+		5C1047931E1F281A00BEF639 /* DYDSDKGeneralAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKGeneralAlertView.h; sourceTree = "<group>"; };
+		5C1047941E1F281A00BEF639 /* DYDSDKGeneralAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKGeneralAlertView.m; sourceTree = "<group>"; };
+		5C1047951E1F281A00BEF639 /* DYDSDKGetCodeBut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKGetCodeBut.h; sourceTree = "<group>"; };
+		5C1047961E1F281A00BEF639 /* DYDSDKGetCodeBut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKGetCodeBut.m; sourceTree = "<group>"; };
+		5C1047971E1F281A00BEF639 /* DYDSDKHexagonImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKHexagonImageView.h; sourceTree = "<group>"; };
+		5C1047981E1F281A00BEF639 /* DYDSDKHexagonImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKHexagonImageView.m; sourceTree = "<group>"; };
+		5C1047991E1F281A00BEF639 /* DYDSDKMessagePopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKMessagePopupView.h; sourceTree = "<group>"; };
+		5C10479A1E1F281A00BEF639 /* DYDSDKMessagePopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKMessagePopupView.m; sourceTree = "<group>"; };
+		5C10479B1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKPasswordPlainButton.h; sourceTree = "<group>"; };
+		5C10479C1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKPasswordPlainButton.m; sourceTree = "<group>"; };
+		5C10479D1E1F281A00BEF639 /* DYDSDKRightImageBut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKRightImageBut.h; sourceTree = "<group>"; };
+		5C10479E1E1F281A00BEF639 /* DYDSDKRightImageBut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKRightImageBut.m; sourceTree = "<group>"; };
+		5C10479F1E1F281A00BEF639 /* DYDSDKCallBackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKCallBackDelegate.h; sourceTree = "<group>"; };
+		5C1047A01E1F281A00BEF639 /* DYDSDKUserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDSDKUserEntity.h; sourceTree = "<group>"; };
+		5C1047A11E1F281A00BEF639 /* DYDSDKUserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDSDKUserEntity.m; sourceTree = "<group>"; };
+		5C1047A31E1F281A00BEF639 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5C1047A41E1F281A00BEF639 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5C1047A51E1F281A00BEF639 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5C1047A61E1F281A00BEF639 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5C1047A71E1F281A00BEF639 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5C1047A81E1F281A00BEF639 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5C1047A91E1F281A00BEF639 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5C1047AA1E1F281A00BEF639 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5C1047AB1E1F281A00BEF639 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5C1047AC1E1F281A00BEF639 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5C1047AD1E1F281A00BEF639 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5C1047AE1E1F281A00BEF639 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBB97761E308EF100FB255E /* DYDOpenApi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DYDOpenApi.bundle; sourceTree = "<group>"; };
+		5CBC580E1E151951008EC867 /* iOSGameSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGameSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBC58121E151951008EC867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CBC58271E151951008EC867 /* iOSGameSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGameSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBC582B1E151951008EC867 /* iOSGameSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGameSDKTests.m; sourceTree = "<group>"; };
+		5CBC582D1E151951008EC867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBC58321E151951008EC867 /* iOSGameSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSGameSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CBC58361E151951008EC867 /* iOSGameSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSGameSDKUITests.m; sourceTree = "<group>"; };
+		5CBC58381E151951008EC867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBC58451E1519C5008EC867 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CBC58461E1519C5008EC867 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CBC58471E1519C5008EC867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CBC58971E1519C6008EC867 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CBC58981E1519C6008EC867 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CBC58991E1519C6008EC867 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CEA8D661E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = dyd_iOS_game_sdk_1.0_test_doc.numbers; sourceTree = "<group>"; };
+		5CEA8D671E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = dyd_iOS_game_sdk_1.0_test_doc.xlsx; sourceTree = "<group>"; };
+		5CEA8D681E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dyd_iOS_game_sdk_guide.html; sourceTree = "<group>"; };
+		5CEA8D691E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = dyd_iOS_game_sdk_guide.md; sourceTree = "<group>"; };
+		5CEA8D6A1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dyd_iOS_game_sdk_guide.pdf; sourceTree = "<group>"; };
+		5CF79FC91E151A6600AD061B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5CF79FCC1E151B1900AD061B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF79FCE1E151B1900AD061B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CBC580B1E151951008EC867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF79FCA1E151A6600AD061B /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC58241E151951008EC867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC582F1E151951008EC867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C10475E1E1F281A00BEF639 /* DYDOpenApi */ = {
+			isa = PBXGroup;
+			children = (
+				5C10475F1E1F281A00BEF639 /* Bak */,
+				5C1047661E1F281A00BEF639 /* BaseLib */,
+				5C10476B1E1F281A00BEF639 /* DYDLogic */,
+				5C1047791E1F281A00BEF639 /* DYDLoginHeader.h */,
+				5C10477A1E1F281A00BEF639 /* DYDLoginHeader.m */,
+				5C10477B1E1F281A00BEF639 /* DYDLoginView */,
+				5C10478E1E1F281A00BEF639 /* DYDPatch */,
+				5C10479F1E1F281A00BEF639 /* DYDSDKCallBackDelegate.h */,
+				5C1047A01E1F281A00BEF639 /* DYDSDKUserEntity.h */,
+				5C1047A11E1F281A00BEF639 /* DYDSDKUserEntity.m */,
+				5C1047A21E1F281A00BEF639 /* fmdb */,
+			);
+			path = DYDOpenApi;
+			sourceTree = "<group>";
+		};
+		5C10475F1E1F281A00BEF639 /* Bak */ = {
+			isa = PBXGroup;
+			children = (
+				5C1047601E1F281A00BEF639 /* DYDSDKFriendsCell.h */,
+				5C1047611E1F281A00BEF639 /* DYDSDKFriendsCell.m */,
+				5C1047621E1F281A00BEF639 /* DYDSDKLookFriendsView.h */,
+				5C1047631E1F281A00BEF639 /* DYDSDKLookFriendsView.m */,
+				5C1047641E1F281A00BEF639 /* DYDSDKSuspensionButton.h */,
+				5C1047651E1F281A00BEF639 /* DYDSDKSuspensionButton.m */,
+			);
+			path = Bak;
+			sourceTree = "<group>";
+		};
+		5C1047661E1F281A00BEF639 /* BaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				5C1047671E1F281A00BEF639 /* DYDKeychainUtils.h */,
+				5C1047681E1F281A00BEF639 /* DYDKeychainUtils.m */,
+				5C1047691E1F281A00BEF639 /* DYDMachineKeyStore.h */,
+				5C10476A1E1F281A00BEF639 /* DYDMachineKeyStore.m */,
+			);
+			path = BaseLib;
+			sourceTree = "<group>";
+		};
+		5C10476B1E1F281A00BEF639 /* DYDLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5C10476C1E1F281A00BEF639 /* DYDDataManager.h */,
+				5C10476D1E1F281A00BEF639 /* DYDDataManager.m */,
+				5C10476E1E1F281A00BEF639 /* DYDDBManager.h */,
+				5C10476F1E1F281A00BEF639 /* DYDDBManager.m */,
+				5C1047701E1F281A00BEF639 /* DYDSDKCommonUICreater.h */,
+				5C1047711E1F281A00BEF639 /* DYDSDKCommonUICreater.m */,
+				5C1047721E1F281A00BEF639 /* DYDSDKDataRequstTool.h */,
+				5C1047731E1F281A00BEF639 /* DYDSDKDataRequstTool.m */,
+				5C1047741E1F281A00BEF639 /* DYDSDKLoginBaseView.h */,
+				5C1047751E1F281A00BEF639 /* DYDSDKLoginBaseView.m */,
+				5C1047761E1F281A00BEF639 /* DYDSDKNetworkTool.h */,
+				5C1047771E1F281A00BEF639 /* DYDSDKNetworkTool.m */,
+				5C1047781E1F281A00BEF639 /* DYDSettingHeader.h */,
+			);
+			path = DYDLogic;
+			sourceTree = "<group>";
+		};
+		5C10477B1E1F281A00BEF639 /* DYDLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				5C10477C1E1F281A00BEF639 /* DYDSDKBindVisitorView.h */,
+				5C10477D1E1F281A00BEF639 /* DYDSDKBindVisitorView.m */,
+				5C10477E1E1F281A00BEF639 /* DYDSDKFunctionMenuView.h */,
+				5C10477F1E1F281A00BEF639 /* DYDSDKFunctionMenuView.m */,
+				5C1047801E1F281A00BEF639 /* DYDSDKHintVisitorView.h */,
+				5C1047811E1F281A00BEF639 /* DYDSDKHintVisitorView.m */,
+				5C1047821E1F281A00BEF639 /* DYDSDKLoginView.h */,
+				5C1047831E1F281A00BEF639 /* DYDSDKLoginView.m */,
+				5C1047841E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.h */,
+				5C1047851E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.m */,
+				5C1047861E1F281A00BEF639 /* DYDSDKRegisterView.h */,
+				5C1047871E1F281A00BEF639 /* DYDSDKRegisterView.m */,
+				5C1047881E1F281A00BEF639 /* DYDSDKSettingPasswordView.h */,
+				5C1047891E1F281A00BEF639 /* DYDSDKSettingPasswordView.m */,
+				5C10478A1E1F281A00BEF639 /* DYDSDKSuspensionMenuView.h */,
+				5C10478B1E1F281A00BEF639 /* DYDSDKSuspensionMenuView.m */,
+				5C10478C1E1F281A00BEF639 /* DYDSDKWelcomeBackView.h */,
+				5C10478D1E1F281A00BEF639 /* DYDSDKWelcomeBackView.m */,
+			);
+			path = DYDLoginView;
+			sourceTree = "<group>";
+		};
+		5C10478E1E1F281A00BEF639 /* DYDPatch */ = {
+			isa = PBXGroup;
+			children = (
+				5C10478F1E1F281A00BEF639 /* DYDSDKBackBaseView.h */,
+				5C1047901E1F281A00BEF639 /* DYDSDKBackBaseView.m */,
+				5C1047911E1F281A00BEF639 /* DYDSDKBurstButtonsView.h */,
+				5C1047921E1F281A00BEF639 /* DYDSDKBurstButtonsView.m */,
+				5C1047931E1F281A00BEF639 /* DYDSDKGeneralAlertView.h */,
+				5C1047941E1F281A00BEF639 /* DYDSDKGeneralAlertView.m */,
+				5C1047951E1F281A00BEF639 /* DYDSDKGetCodeBut.h */,
+				5C1047961E1F281A00BEF639 /* DYDSDKGetCodeBut.m */,
+				5C1047971E1F281A00BEF639 /* DYDSDKHexagonImageView.h */,
+				5C1047981E1F281A00BEF639 /* DYDSDKHexagonImageView.m */,
+				5C1047991E1F281A00BEF639 /* DYDSDKMessagePopupView.h */,
+				5C10479A1E1F281A00BEF639 /* DYDSDKMessagePopupView.m */,
+				5C10479B1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.h */,
+				5C10479C1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.m */,
+				5C10479D1E1F281A00BEF639 /* DYDSDKRightImageBut.h */,
+				5C10479E1E1F281A00BEF639 /* DYDSDKRightImageBut.m */,
+			);
+			path = DYDPatch;
+			sourceTree = "<group>";
+		};
+		5C1047A21E1F281A00BEF639 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				5C1047A31E1F281A00BEF639 /* FMDatabase.h */,
+				5C1047A41E1F281A00BEF639 /* FMDatabase.m */,
+				5C1047A51E1F281A00BEF639 /* FMDatabaseAdditions.h */,
+				5C1047A61E1F281A00BEF639 /* FMDatabaseAdditions.m */,
+				5C1047A71E1F281A00BEF639 /* FMDatabasePool.h */,
+				5C1047A81E1F281A00BEF639 /* FMDatabasePool.m */,
+				5C1047A91E1F281A00BEF639 /* FMDatabaseQueue.h */,
+				5C1047AA1E1F281A00BEF639 /* FMDatabaseQueue.m */,
+				5C1047AB1E1F281A00BEF639 /* FMDB.h */,
+				5C1047AC1E1F281A00BEF639 /* FMResultSet.h */,
+				5C1047AD1E1F281A00BEF639 /* FMResultSet.m */,
+				5C1047AE1E1F281A00BEF639 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		5CBC58051E151951008EC867 = {
+			isa = PBXGroup;
+			children = (
+				5CBC58101E151951008EC867 /* iOSGameSDK */,
+				5CBC582A1E151951008EC867 /* iOSGameSDKTests */,
+				5CEA8D651E2F1E9E00FEB68D /* document */,
+				5CBC58351E151951008EC867 /* iOSGameSDKUITests */,
+				5CBC580F1E151951008EC867 /* Products */,
+				5CF79FC81E151A6600AD061B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CBC580F1E151951008EC867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC580E1E151951008EC867 /* iOSGameSDK.app */,
+				5CBC58271E151951008EC867 /* iOSGameSDKTests.xctest */,
+				5CBC58321E151951008EC867 /* iOSGameSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CBC58101E151951008EC867 /* iOSGameSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC58451E1519C5008EC867 /* AppDelegate.h */,
+				5CBC58461E1519C5008EC867 /* AppDelegate.m */,
+				5CBC58471E1519C5008EC867 /* Assets.xcassets */,
+				5CBB97761E308EF100FB255E /* DYDOpenApi.bundle */,
+				5C10475E1E1F281A00BEF639 /* DYDOpenApi */,
+				5CF79FCB1E151B1900AD061B /* LaunchScreen.storyboard */,
+				5CF79FCD1E151B1900AD061B /* Main.storyboard */,
+				5CBC58971E1519C6008EC867 /* Info.plist */,
+				5CBC58981E1519C6008EC867 /* ViewController.h */,
+				5CBC58991E1519C6008EC867 /* ViewController.m */,
+				5CBC58111E151951008EC867 /* Supporting Files */,
+			);
+			path = iOSGameSDK;
+			sourceTree = "<group>";
+		};
+		5CBC58111E151951008EC867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC58121E151951008EC867 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CBC582A1E151951008EC867 /* iOSGameSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC582B1E151951008EC867 /* iOSGameSDKTests.m */,
+				5CBC582D1E151951008EC867 /* Info.plist */,
+			);
+			path = iOSGameSDKTests;
+			sourceTree = "<group>";
+		};
+		5CBC58351E151951008EC867 /* iOSGameSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CBC58361E151951008EC867 /* iOSGameSDKUITests.m */,
+				5CBC58381E151951008EC867 /* Info.plist */,
+			);
+			path = iOSGameSDKUITests;
+			sourceTree = "<group>";
+		};
+		5CEA8D651E2F1E9E00FEB68D /* document */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA8D661E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.numbers */,
+				5CEA8D671E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.xlsx */,
+				5CEA8D681E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.html */,
+				5CEA8D691E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.md */,
+				5CEA8D6A1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.pdf */,
+			);
+			path = document;
+			sourceTree = "<group>";
+		};
+		5CF79FC81E151A6600AD061B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF79FC91E151A6600AD061B /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CBC580D1E151951008EC867 /* iOSGameSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBC583B1E151951008EC867 /* Build configuration list for PBXNativeTarget "iOSGameSDK" */;
+			buildPhases = (
+				5CBC580A1E151951008EC867 /* Sources */,
+				5CBC580B1E151951008EC867 /* Frameworks */,
+				5CBC580C1E151951008EC867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSGameSDK;
+			productName = iOSGameSDK;
+			productReference = 5CBC580E1E151951008EC867 /* iOSGameSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CBC58261E151951008EC867 /* iOSGameSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBC583E1E151951008EC867 /* Build configuration list for PBXNativeTarget "iOSGameSDKTests" */;
+			buildPhases = (
+				5CBC58231E151951008EC867 /* Sources */,
+				5CBC58241E151951008EC867 /* Frameworks */,
+				5CBC58251E151951008EC867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBC58291E151951008EC867 /* PBXTargetDependency */,
+			);
+			name = iOSGameSDKTests;
+			productName = iOSGameSDKTests;
+			productReference = 5CBC58271E151951008EC867 /* iOSGameSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CBC58311E151951008EC867 /* iOSGameSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBC58411E151951008EC867 /* Build configuration list for PBXNativeTarget "iOSGameSDKUITests" */;
+			buildPhases = (
+				5CBC582E1E151951008EC867 /* Sources */,
+				5CBC582F1E151951008EC867 /* Frameworks */,
+				5CBC58301E151951008EC867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBC58341E151951008EC867 /* PBXTargetDependency */,
+			);
+			name = iOSGameSDKUITests;
+			productName = iOSGameSDKUITests;
+			productReference = 5CBC58321E151951008EC867 /* iOSGameSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CBC58061E151951008EC867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "邱明";
+				TargetAttributes = {
+					5CBC580D1E151951008EC867 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LJ9J9VATC9;
+						ProvisioningStyle = Automatic;
+					};
+					5CBC58261E151951008EC867 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 96LAEPA97U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CBC580D1E151951008EC867;
+					};
+					5CBC58311E151951008EC867 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 96LAEPA97U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CBC580D1E151951008EC867;
+					};
+				};
+			};
+			buildConfigurationList = 5CBC58091E151951008EC867 /* Build configuration list for PBXProject "iOSGameSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CBC58051E151951008EC867;
+			productRefGroup = 5CBC580F1E151951008EC867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CBC580D1E151951008EC867 /* iOSGameSDK */,
+				5CBC58261E151951008EC867 /* iOSGameSDKTests */,
+				5CBC58311E151951008EC867 /* iOSGameSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CBC580C1E151951008EC867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA8D6B1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.numbers in Resources */,
+				5CEA8D6C1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_1.0_test_doc.xlsx in Resources */,
+				5CF79FD01E151B1900AD061B /* Main.storyboard in Resources */,
+				5C1047D21E1F281A00BEF639 /* Info.plist in Resources */,
+				5CF79FCF1E151B1900AD061B /* LaunchScreen.storyboard in Resources */,
+				5CBB97771E308EF100FB255E /* DYDOpenApi.bundle in Resources */,
+				5CBC589C1E1519C6008EC867 /* Assets.xcassets in Resources */,
+				5CEA8D6D1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.html in Resources */,
+				5CEA8D6F1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.pdf in Resources */,
+				5CBC58CD1E1519C6008EC867 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC58251E151951008EC867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC58301E151951008EC867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CBC580A1E151951008EC867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1047AF1E1F281A00BEF639 /* DYDSDKFriendsCell.m in Sources */,
+				5C1047B11E1F281A00BEF639 /* DYDSDKSuspensionButton.m in Sources */,
+				5C1047B01E1F281A00BEF639 /* DYDSDKLookFriendsView.m in Sources */,
+				5C1047B31E1F281A00BEF639 /* DYDMachineKeyStore.m in Sources */,
+				5C1047B21E1F281A00BEF639 /* DYDKeychainUtils.m in Sources */,
+				5C1047CC1E1F281A00BEF639 /* DYDSDKUserEntity.m in Sources */,
+				5C1047C31E1F281A00BEF639 /* DYDSDKWelcomeBackView.m in Sources */,
+				5C1047C71E1F281A00BEF639 /* DYDSDKGetCodeBut.m in Sources */,
+				5C1047B61E1F281A00BEF639 /* DYDSDKCommonUICreater.m in Sources */,
+				5C1047B41E1F281A00BEF639 /* DYDDataManager.m in Sources */,
+				5C1047C11E1F281A00BEF639 /* DYDSDKSettingPasswordView.m in Sources */,
+				5C1047CA1E1F281A00BEF639 /* DYDSDKPasswordPlainButton.m in Sources */,
+				5C1047D01E1F281A00BEF639 /* FMDatabaseQueue.m in Sources */,
+				5CBC58CE1E1519C6008EC867 /* ViewController.m in Sources */,
+				5C1047CF1E1F281A00BEF639 /* FMDatabasePool.m in Sources */,
+				5C1047B71E1F281A00BEF639 /* DYDSDKDataRequstTool.m in Sources */,
+				5C1047BE1E1F281A00BEF639 /* DYDSDKLoginView.m in Sources */,
+				5C1047C01E1F281A00BEF639 /* DYDSDKRegisterView.m in Sources */,
+				5C1047C41E1F281A00BEF639 /* DYDSDKBackBaseView.m in Sources */,
+				5C1047C51E1F281A00BEF639 /* DYDSDKBurstButtonsView.m in Sources */,
+				5C1047BA1E1F281A00BEF639 /* DYDLoginHeader.m in Sources */,
+				5C1047CE1E1F281A00BEF639 /* FMDatabaseAdditions.m in Sources */,
+				5C1047BF1E1F281A00BEF639 /* DYDSDKRegisterSendCodeView.m in Sources */,
+				5C1047C91E1F281A00BEF639 /* DYDSDKMessagePopupView.m in Sources */,
+				5C1047D11E1F281A00BEF639 /* FMResultSet.m in Sources */,
+				5C1047CD1E1F281A00BEF639 /* FMDatabase.m in Sources */,
+				5C1047C81E1F281A00BEF639 /* DYDSDKHexagonImageView.m in Sources */,
+				5C1047B91E1F281A00BEF639 /* DYDSDKNetworkTool.m in Sources */,
+				5CBC589B1E1519C6008EC867 /* AppDelegate.m in Sources */,
+				5CBC58131E151951008EC867 /* main.m in Sources */,
+				5C1047C21E1F281A00BEF639 /* DYDSDKSuspensionMenuView.m in Sources */,
+				5C1047BC1E1F281A00BEF639 /* DYDSDKFunctionMenuView.m in Sources */,
+				5C1047BB1E1F281A00BEF639 /* DYDSDKBindVisitorView.m in Sources */,
+				5C1047C61E1F281A00BEF639 /* DYDSDKGeneralAlertView.m in Sources */,
+				5C1047BD1E1F281A00BEF639 /* DYDSDKHintVisitorView.m in Sources */,
+				5C1047B51E1F281A00BEF639 /* DYDDBManager.m in Sources */,
+				5C1047B81E1F281A00BEF639 /* DYDSDKLoginBaseView.m in Sources */,
+				5CEA8D6E1E2F1E9E00FEB68D /* dyd_iOS_game_sdk_guide.md in Sources */,
+				5C1047CB1E1F281A00BEF639 /* DYDSDKRightImageBut.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC58231E151951008EC867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBC582C1E151951008EC867 /* iOSGameSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CBC582E1E151951008EC867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBC58371E151951008EC867 /* iOSGameSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CBC58291E151951008EC867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CBC580D1E151951008EC867 /* iOSGameSDK */;
+			targetProxy = 5CBC58281E151951008EC867 /* PBXContainerItemProxy */;
+		};
+		5CBC58341E151951008EC867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CBC580D1E151951008EC867 /* iOSGameSDK */;
+			targetProxy = 5CBC58331E151951008EC867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF79FCB1E151B1900AD061B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF79FCC1E151B1900AD061B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF79FCD1E151B1900AD061B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF79FCE1E151B1900AD061B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CBC58391E151951008EC867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CBC583A1E151951008EC867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CBC583C1E151951008EC867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LJ9J9VATC9;
+				INFOPLIST_FILE = iOSGameSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSGameSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CBC583D1E151951008EC867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LJ9J9VATC9;
+				INFOPLIST_FILE = iOSGameSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSGameSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CBC583F1E151951008EC867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 96LAEPA97U;
+				INFOPLIST_FILE = iOSGameSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSGameSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSGameSDK.app/iOSGameSDK";
+			};
+			name = Debug;
+		};
+		5CBC58401E151951008EC867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 96LAEPA97U;
+				INFOPLIST_FILE = iOSGameSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSGameSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSGameSDK.app/iOSGameSDK";
+			};
+			name = Release;
+		};
+		5CBC58421E151951008EC867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 96LAEPA97U;
+				INFOPLIST_FILE = iOSGameSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSGameSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSGameSDK;
+			};
+			name = Debug;
+		};
+		5CBC58431E151951008EC867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 96LAEPA97U;
+				INFOPLIST_FILE = iOSGameSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSGameSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSGameSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CBC58091E151951008EC867 /* Build configuration list for PBXProject "iOSGameSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBC58391E151951008EC867 /* Debug */,
+				5CBC583A1E151951008EC867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBC583B1E151951008EC867 /* Build configuration list for PBXNativeTarget "iOSGameSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBC583C1E151951008EC867 /* Debug */,
+				5CBC583D1E151951008EC867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBC583E1E151951008EC867 /* Build configuration list for PBXNativeTarget "iOSGameSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBC583F1E151951008EC867 /* Debug */,
+				5CBC58401E151951008EC867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBC58411E151951008EC867 /* Build configuration list for PBXNativeTarget "iOSGameSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBC58421E151951008EC867 /* Debug */,
+				5CBC58431E151951008EC867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CBC58061E151951008EC867 /* Project object */;
+}
